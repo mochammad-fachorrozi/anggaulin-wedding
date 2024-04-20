@@ -115,6 +115,12 @@ body {
   margin-top: 100px;
 }
 
+.home h3 {
+  font-family: 'Sacramento';
+  font-size: 2.4rem;
+  color: var(--pink);
+}
+
 .home .couple h3 {
   font-family: 'Sacramento';
   font-size: 2.4rem;
@@ -181,6 +187,7 @@ body {
 }
 
 .story,
+.ayat,
 .gallery,
 .rsvp,
 .gifts {
@@ -491,5 +498,9 @@ footer li {
 
   .timeline li .timeline-panel::after {
     top: 31px;
+  }
+
+  .ayat {
+    background-image: url(img/bg.png);
   }
 }
